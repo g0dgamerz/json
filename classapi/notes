@@ -1,0 +1,42 @@
+
+
+
+GET ->/posts ->goto all the posts
+GET ->/posts/1 ->get the post where id is 1
+GET ->/posts/comments -> get comments where id is 1
+GET ->/comments?postid=1  -> post id is 1
+
+
+
+
+
+function base component
+stateless
+props
+
+
+class based component
+statefull
+props
+
+
+hooks/lifehooks
+
+ECMA Script 6
+
+= () =>
+
+
+function -->component=---> Html
+
+JSX
+complete html inside <div>
+no pure html
+
+   1.  React.createElement('div','null',React.createElement('h1','null','hell9'))
+   2. <div>
+       <h1>hell9</h1>
+     </div>
+
+
+	1 and 2 are same thing
